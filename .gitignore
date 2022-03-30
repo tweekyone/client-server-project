@@ -1,0 +1,23 @@
+target/
+
+### gradle ###
+**/.gradle
+**/build
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Docker data
+db-data/
+
+# Coverage report
+coverege-report/
+
+# Generated
+.jpb/
+test-server/out/
+test-client/out/
+untitled/
