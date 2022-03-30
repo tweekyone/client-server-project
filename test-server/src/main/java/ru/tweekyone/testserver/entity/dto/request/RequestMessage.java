@@ -1,20 +1,18 @@
 package ru.tweekyone.testserver.entity.dto.request;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import javax.validation.constraints.NotNull;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class RequestMessage {
+
+    @NotNull
     private String message;
-
-    public RequestMessage() {
-    }
-
-    public RequestMessage(String message) {
-        this.message = message;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
 }
